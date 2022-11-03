@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: burlywood;
+    color: white;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    background-color: aquamarine;
+    height: 90vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+
+
+}
+
+#calander{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(5, auto);
+    height: 70vh;
+    width: 50vw;
+    background-color: black;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: 20px 0 0 0;
+    
+
+}
+
+.icons{
+    grid-column: 1/8;
+}
+
+h2{
+    display: inline;
+}
+
+.name{
+    grid-column: 1/8;
+    text-align: center;
+    
+
+}
+
+
+.box1{
+    display: grid;
+    grid-column: 1/8;
+    grid-template-columns: repeat(7, 10%);
+    column-gap: 30px;
+    
+       
+}
+
+.days{
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 100%;
+}
+
+.third{
+    margin: 0 0 0 200px;
+}
+
+.fourth{
+    margin: 0 0 0 26px;
+}
+
+.fifth{
+    margin: 0 0 0 5px;
+}
+
+button{
+    background-color: aquamarine;
+     
+    border-radius: 100%;
+}
+
+button:hover{
+    background-color: white;
+}
